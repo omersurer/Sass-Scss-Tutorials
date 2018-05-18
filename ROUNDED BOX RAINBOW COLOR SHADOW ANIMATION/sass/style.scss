@@ -1,0 +1,70 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: red;
+   
+}
+.shadow{
+    width: 500px;
+    height: 500px;
+    background-image: url(../img1.png);
+    position: absolute;
+    top: calc(50% - 250px);
+    left: calc(50% - 250px);
+    border-radius: 300px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.shadow:before,
+.shadow:after{
+    top: -3px;
+    left: -3px;
+    width: calc(100% + 4px);
+    height: calc(100% + 4px);
+    content: '';
+    position: absolute;
+    background: linear-gradient(45deg,deeppink,blue,greenyellow,yellow,red,deeppink,blue,greenyellow,yellow,red);
+    background-size: 400%;
+    z-index: -1;
+    animation: tutorial 20s linear infinite;
+    border-radius: 300px;
+}
+.shadow:after{
+    filter: blur(20px);
+}
+@keyframes tutorial{
+    0%{
+        background-position: 0 0;
+    }
+    50%{
+        background-position: 300% 0;
+    }
+    100%{
+        background-position: 0 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
