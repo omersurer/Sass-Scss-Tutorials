@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  padding: 100px;
+  color: red;
+  text-align: center;
+  font-size: 36px;
+  font-family: fantasy;
+  font-weight: bold;
+  background-color: rebeccapurple; }
+
+h1 {
+  color: aliceblue;
+  text-shadow: 0px 0px 25px black; }
+
+.textrotate {
+  width: 200px;
+  height: 20px;
+  text-align: left;
+  display: inline-block; }
+
+.c1, .c2, .c3, .c4 {
+  font-size: 0px;
+  opacity: 0px;
+  margin-left: -70px;
+  position: absolute;
+  font-weight: 400;
+  text-shadow: 0px 30px 25px rgba(0, 0, 0, 0.5); }
+
+.textrotate .c1 {
+  animation: appear 5s linear infinite 0s; }
+
+.textrotate .c2 {
+  animation: appear 5s linear infinite 1s; }
+
+.textrotate .c3 {
+  animation: appear 5s linear infinite 2s; }
+
+.textrotate .c4 {
+  animation: appear2 5s linear infinite 3s; }
+
+@keyframes appear {
+  0% {
+    transform: rotate(-25deg); }
+  3% {
+    opacity: 1;
+    transform: rotate(0deg); }
+  5% {
+    opacity: 1;
+    font-size: inherit;
+    margin-left: 0px;
+    margin-top: 0px; }
+  20% {
+    opacity: 1;
+    font-size: inherit;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: rotate(0deg); }
+  27% {
+    opacity: 0.5;
+    font-size: 0px;
+    margin-left: 20px;
+    margin-top: 100px; }
+  100% {
+    opacity: 0;
+    font-size: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: rotate(15deg); } }
+@keyframes appear2 {
+  0% {
+    transform: rotate(-25deg); }
+  3% {
+    opacity: 1;
+    transform: rotate(0deg); }
+  5% {
+    opacity: 1;
+    font-size: inherit;
+    margin-left: 0px;
+    margin-top: 0px; }
+  30% {
+    opacity: 1;
+    font-size: inherit;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: rotate(0deg); }
+  37% {
+    opacity: 0;
+    font-size: 250px;
+    margin-left: -550px;
+    margin-top: -350px; }
+  100% {
+    opacity: 0;
+    font-size: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    transform: rotate(15deg); } }
+
+/*# sourceMappingURL=style.css.map */
