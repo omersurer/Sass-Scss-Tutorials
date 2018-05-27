@@ -1,0 +1,135 @@
+$blink-first-color: #9e33ea;
+$blink-second-color: mediumpurple;
+
+body {
+    background-color: #242424; 
+    font-family: serif;
+    color: cornflowerblue;
+}
+div {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.utopian {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 10vw; 
+    text-shadow: 3px 3px 3px #cf8cff, 3px 3px 3px #9e33ea;
+    animation: shadow 2s ease infinite;
+    line-height: 20%;
+}
+
+div p {
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 2vw;
+    text-shadow: 3px 3px 50px #cf8cff;
+    margin-top: 10%;
+}
+img {
+    max-width:100%;
+    height:auto;
+    margin-left: -12%; 
+    filter: drop-shadow(10px 10px 10px #cf8cff);
+}
+
+@keyframes shadow {
+    from {
+        text-shadow: 0px 0px 10px $blink-first-color, 0px 0px 10px $blink-first-color, 0px 0px 20px $blink-first-color, 0px 0px 20px $blink-first-color,0px 0px 20px $blink-first-color,0px 0px 20px $blink-first-color,0px 0px 20px $blink-first-color,0px 0px 20px $blink-first-color, 0px 0px 40px $blink-first-color, 0px 0px 40px $blink-first-color, 0px 0px 40px $blink-first-color, 0px 0px 50px $blink-first-color, 0px 0px 50px $blink-first-color,0px 0px 70px $blink-first-color,0px 0px 70px $blink-first-color, 0px 0px 100px $blink-first-color, 0px 0px 100px $blink-first-color, 0px 0px 200px $blink-second-color,0px 10px 150px $blink-second-color, 0px 10px 150px $blink-second-color, 0px 10px 150px $blink-second-color, 0px 10px 120px $blink-second-color, 0px 0px 120px $blink-second-color, 0px 0px 120px $blink-second-color, 0px 0px 100px $blink-second-color, 0px -10px 100px $blink-second-color, 0px -10px 100px $blink-second-color, 0px -10px 100px $blink-second-color;
+        
+        
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
