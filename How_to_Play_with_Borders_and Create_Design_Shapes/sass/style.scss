@@ -1,0 +1,138 @@
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../back.jpg);
+}
+h2{
+    text-align: center;
+    border: 6px solid red;
+    color: aliceblue;
+    border-radius: 15px;
+    margin-bottom:  -80px;
+    background-color: rgba(255,255,255,0.7);
+    letter-spacing: 2px;
+}
+h2:hover{
+    color: black;
+    background-color: rgba(255,255,255,1); 
+    cursor: pointer;
+}
+
+.shapesbox{
+    width: 1000px;
+    height: 550px;
+    margin-top: 100px;
+    display: block;
+    border: 6px solid red;
+    border-radius: 15px;
+    background-color: rgba(255,255,255,0.7);
+}
+
+.shape1,
+.shape2,
+.shape3,
+.shape4,
+.shape5,
+.shape6{
+    float: left;
+    color: white;
+    padding: 5%;
+    width: 300px;
+    height: 220px;
+    margin: 0 10px;
+    margin-top: 40px;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: sans-serif;
+    z-index: 1;
+    mix-blend-mode: multiply;
+    transition: 1s;
+}
+
+.shape1{
+    background-color: crimson;
+    border-radius: 50% 50% 50% 70%/50% 50% 50% 60%;
+}
+.shape1:hover{
+    border-radius: 80% 30% 50% 70%/50%
+}
+.shape2{
+    background-color: orange;
+    color: crimson;
+    border-radius: 80% 30% 50% 70%/50%;
+}
+.shape3{
+    background-color: greenyellow;
+    color: black;
+    border-radius: 80% 70%/50% 50% 90%;
+}
+.shape4{
+    background-color: dodgerblue;
+    border-radius: 80% 30% 50% 70%/50%;
+}
+.shape5{
+    background-color: mediumpurple;
+    border-radius: 80% 70%/50% 50% 90%;
+}
+.shape6{
+    background-color: brown;
+    border-radius: 50%/80% 30% 50% 70%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
