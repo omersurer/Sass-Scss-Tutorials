@@ -1,0 +1,85 @@
+body {
+  background-image: url(../background.jpg);
+  background-size: cover;
+  background-attachment: fixed; }
+
+#main {
+  color: white;
+  border-bottom: 2px solid chartreuse;
+  font-family: fantasy;
+  font-weight: bold;
+  font-size: 48px;
+  text-align: center;
+  text-shadow: 0px 10px 30px chartreuse; }
+
+.leftmenu {
+  width: 230px;
+  height: auto;
+  margin: 180px auto 0;
+  line-height: 32px;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: -165px; }
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif; }
+
+li {
+  display: block;
+  height: 32px;
+  padding: 16px 24px;
+  position: relative;
+  transition: transform 0.6s; }
+
+li:hover {
+  transform: translateX(165px); }
+
+#list1 {
+  background-color: crimson; }
+
+#list2 {
+  background-color: chartreuse; }
+
+#list3 {
+  background-color: yellow; }
+
+#list4 {
+  background-color: deepskyblue; }
+
+#list5 {
+  background-color: orangered; }
+
+a {
+  font-size: 20px;
+  display: block;
+  color: #0c0c0c;
+  text-shadow: 3px 3px 10px white;
+  text-decoration: none; }
+
+.fa {
+  float: right;
+  color: #0c0c0c;
+  text-shadow: 3px 3px 10px white; }
+
+span {
+  display: block;
+  position: absolute;
+  font-size: 32px;
+  line-height: 32px;
+  height: 32px;
+  top: -16px;
+  left: 64px;
+  bottom: 0;
+  margin: 0 auto;
+  padding: 28px 14px;
+  right: 2.7px;
+  color: antiquewhite; }
+
+/*# sourceMappingURL=style.css.map */
