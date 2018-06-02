@@ -1,0 +1,71 @@
+body {
+  padding: 0;
+  margin: 0;
+  background-image: url(../bg.jpg); }
+
+.mainbox {
+  background-color: aqua;
+  width: 600px;
+  height: 400px;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2); }
+
+.mainbox ul {
+  margin: -50px auto 0;
+  padding: 0;
+  width: 600px; }
+
+.mainbox ul li {
+  width: 100px;
+  height: 50px;
+  list-style: none;
+  float: left;
+  background-color: rebeccapurple; }
+
+.mainbox ul li:hover {
+  box-sizing: border-box;
+  border: 2px solid red; }
+
+.mainbox ul li:nth-child(1),
+.mainbox ul li:nth-child(1) .color {
+  background-color: brown; }
+
+.mainbox ul li:nth-child(2),
+.mainbox ul li:nth-child(2) .color {
+  background-color: green; }
+
+.mainbox ul li:nth-child(3),
+.mainbox ul li:nth-child(3) .color {
+  background-color: blue; }
+
+.mainbox ul li:nth-child(4),
+.mainbox ul li:nth-child(4) .color {
+  background-color: yellow; }
+
+.mainbox ul li:nth-child(5),
+.mainbox ul li:nth-child(5) .color {
+  background-color: deeppink; }
+
+.mainbox ul li:nth-child(6),
+.mainbox ul li:nth-child(6) .color {
+  background-color: purple; }
+
+.mainbox ul li .color {
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: scaleY(0);
+  transform-origin: bottom;
+  transition: transform 0.5s; }
+
+.mainbox ul li:hover .color {
+  transform: scaleY(1);
+  transform-origin: top;
+  transition: transform 0.5s; }
+
+/*# sourceMappingURL=style.css.map */
