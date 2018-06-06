@@ -1,0 +1,102 @@
+body{
+    background-color: crimson;
+}
+h1{
+    text-align: center;
+    margin-top: 5%;
+    font-size: 48px;
+    text-shadow: 3px 3px 5px rgba(255,255,255,0.5);
+    color: #0c0c0c
+}
+.mainbox{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    .phn{
+        display: block;
+        position: relative;
+        margin-top: -50px;
+        animation: phone 1s infinite linear;
+    }
+    .handset {
+        display: block;
+        margin: 100 auto 0 auto;
+        position: relative;
+        animation: ringing 1s infinite linear;
+    }
+}
+@keyframes ringing {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      transform: skew((random(30) - 15) + deg);
+    }
+  }
+}
+
+@keyframes phone {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      transform: skew((random(10) - 5) + deg);
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
